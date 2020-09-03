@@ -157,9 +157,14 @@ a:hover {
 }
 
 .title--hidden {
-  height: 0;
-  width: 0;
-  margin: 0;
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
   overflow: hidden;
 }
 
@@ -252,6 +257,7 @@ a:hover {
   left: 0;
   right: 0;
   font-family: "Roboto-Black", sans-serif;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
