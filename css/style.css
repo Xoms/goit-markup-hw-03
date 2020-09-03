@@ -192,7 +192,7 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 85px;
+  margin-left: 94px;
 }
 
 .nav__list-item:not(:last-child) {
